@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginBottom="10dp"
+    android:padding="10dp"
+    app:cardElevation="8dp"
+    app:cardCornerRadius="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textSize="20dp"
+            android:id="@+id/stcrimeid"
+            android:text="ID : " />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textSize="20dp"
+            android:id="@+id/stcrimecity"
+            android:text="City : " />
+
+
+        <TextView
+            android:id="@+id/stcrimepincode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Pincode"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/stcrimedetails"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="4dp"
+            android:text="crime details"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/stcrimeimage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+
+
+        <TextView
+            android:id="@+id/stcrime"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="4dp"
+            android:text="Submitted"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

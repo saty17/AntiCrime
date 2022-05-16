@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ComplaintRegister">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="complaint_register"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:fontFamily="cursive"
+        android:textColor="#EA4C83"
+        />
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="550dp"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp">
+
+        <!--        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:id="@+id/addresslayout">
+
+            <EditText
+                android:inputType="textMultiLine"
+                android:lines="8"
+                android:minLines="6"
+                android:gravity="top|start"
+                android:maxLines="10"
+                android:scrollbars="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="address"
+                android:id="@+id/etaddress"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <!--        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@id/addresslayout"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/citylayout">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="city"
+                android:id="@+id/etcity"
+                android:inputType="text"/>
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <!--        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@id/citylayout"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/pincodelayout">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="pincode"
+                android:id="@+id/etpincode"
+                android:inputType="number"/>
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@id/pincodelayout"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/subjectlayout">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="subject"
+                android:id="@+id/etsubject"
+                android:inputType="text"/>
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@id/subjectlayout"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/complaintlayout">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="complaint"
+                android:id="@+id/etcomplaint"
+                android:inputType="text"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="register_complaint"
+            android:textColor="#fff"
+            android:id="@+id/btnregister"
+            android:background="#3BB5EC"
+            android:layout_below="@id/complaintlayout"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:onClick="onClick"/>
+    </RelativeLayout>
+
+</RelativeLayout>

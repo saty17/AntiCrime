@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.anticrime.ui.Home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_profile_setting"
+        android:name="com.example.anticrime.ui.ProfileSetting.ProfileSettingFragment"
+        android:label="Profile Setting"
+        tools:layout="@layout/fragment_profilesetting" />
+
+    <fragment
+        android:id="@+id/nav_crime_status"
+        android:name="com.example.anticrime.ui.CrimeStatus.CrimeStatusFragment"
+        android:label="Crime Status"
+        tools:layout="@layout/fragment_crimestatus" />
+    <fragment
+        android:id="@+id/nav_crime_around_you"
+        android:name="com.example.anticrime.ui.CrimeAroundYou.crimesaroundyou"
+        android:label="Crimes Around You"
+        tools:layout="@layout/fragment_crimesaroundyou" />
+    <fragment
+        android:id="@+id/nav_missing_person_status"
+        android:name="com.example.anticrime.ui.MissingStatus.missingpersonstatus"
+        android:label="Missing Person Status"
+        tools:layout="@layout/fragment_missingpersonstatus" />
+    <fragment
+    android:id="@+id/nav_complaint_status"
+    android:name="com.example.anticrime.ui.ComplaintStatus.ComplaintStatus"
+    android:label="Complaint Status"
+    tools:layout="@layout/fragment_complaint_status" />
+    <fragment
+        android:id="@+id/nav_missing"
+        android:name="com.example.anticrime.ui.MissingPerson.InMissing"
+        android:label="Missing Person"
+        tools:layout="@layout/fragment_in_missing" />
+    <fragment
+        android:id="@+id/nav_Complaint"
+        android:name="com.example.anticrime.ui.Complaint.InComplaint"
+        android:label="Complaint"
+        tools:layout="@layout/fragment_in_complaint" />
+
+</navigation>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".register"
+    tools:ignore="HardcodedText">
+<!--    <ScrollView-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_width="match_parent">-->
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/splashlogo" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/anticrime"
+        android:layout_marginTop="130dp"
+        android:gravity="center"
+        android:textSize="70sp"
+        android:fontFamily="cursive"
+        android:textColor="#A8A3A5"
+        />
+<!--    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="80dp"
+        android:gravity="center">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/namelayout"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp">
+
+            <EditText
+                android:id="@+id/etname"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:hint="@string/Username" />
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <!--    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/emaillayout"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_below="@id/namelayout"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp">
+
+            <EditText
+                android:id="@+id/etemail"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress" />
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <!--    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/passwordlayout"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_below="@id/emaillayout"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="#000">
+
+            <EditText
+                android:id="@+id/etpassword"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:hint="@string/Password"
+                android:inputType="textPassword" />
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <!--    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/aadharlayout"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_below="@id/passwordlayout"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp">
+
+            <EditText
+                android:id="@+id/etaadhar"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:hint="@string/Aadhar_no" />
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <!--    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/phonelayout"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_below="@id/aadharlayout"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp">
+
+            <EditText
+                android:id="@+id/etphone"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:hint="@string/Phone_no" />
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <Button
+            android:id="@+id/btnregister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/phonelayout"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:background="#3BB5EC"
+            android:onClick="onClick"
+            android:text="@string/register"
+            android:textColor="#4E342E" />
+
+        <TextView
+            android:id="@+id/loginlink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnregister"
+            android:layout_marginTop="36dp"
+            android:gravity="center_horizontal"
+            android:text="@string/already_regiser_login_here" />
+        <!--    </ScrollView>-->
+    </RelativeLayout>
+</RelativeLayout>

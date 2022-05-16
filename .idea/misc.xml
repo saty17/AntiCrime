@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Satyam/AndroidStudioProjects/AntiCrime/app/src/main/res/layout/activity_admin_page.xml" value="0.144017094017094" />
+        <entry key="..\:/Users/Satyam/AndroidStudioProjects/AntiCrime/app/src/main/res/layout/activity_base.xml" value="0.144017094017094" />
+        <entry key="..\:/Users/Satyam/AndroidStudioProjects/AntiCrime/app/src/main/res/layout/activity_complaint_register.xml" value="0.144017094017094" />
+        <entry key="..\:/Users/Satyam/AndroidStudioProjects/AntiCrime/app/src/main/res/layout/activity_crime_register.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/Satyam/AndroidStudioProjects/AntiCrime/app/src/main/res/layout/activity_index.xml" value="0.1421940928270042" />
+        <entry key="..\:/Users/Satyam/AndroidStudioProjects/AntiCrime/app/src/main/res/layout/activity_login.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Satyam/AndroidStudioProjects/AntiCrime/app/src/main/res/layout/activity_main.xml" value="0.1311965811965812" />
+        <entry key="..\:/Users/Satyam/AndroidStudioProjects/AntiCrime/app/src/main/res/layout/activity_missing_register.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/Satyam/AndroidStudioProjects/AntiCrime/app/src/main/res/layout/activity_register.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/Satyam/AndroidStudioProjects/AntiCrime/app/src/main/res/layout/activity_skiphome.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/Satyam/AndroidStudioProjects/AntiCrime/app/src/main/res/layout/app_bar_skiphome.xml" value="0.144017094017094" />
+        <entry key="..\:/Users/Satyam/AndroidStudioProjects/AntiCrime/app/src/main/res/layout/baseappbar.xml" value="0.144017094017094" />
+        <entry key="..\:/Users/Satyam/AndroidStudioProjects/AntiCrime/app/src/main/res/layout/complaint_item.xml" value="0.14167478091528724" />
+        <entry key="..\:/Users/Satyam/AndroidStudioProjects/AntiCrime/app/src/main/res/layout/complaintstatus_item.xml" value="0.144017094017094" />
+        <entry key="..\:/Users/Satyam/AndroidStudioProjects/AntiCrime/app/src/main/res/layout/content_skiphome.xml" value="0.144017094017094" />
+        <entry key="..\:/Users/Satyam/AndroidStudioProjects/AntiCrime/app/src/main/res/layout/crime_item.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/Satyam/AndroidStudioProjects/AntiCrime/app/src/main/res/layout/crimestatus_dialog.xml" value="0.11794871794871795" />
+        <entry key="..\:/Users/Satyam/AndroidStudioProjects/AntiCrime/app/src/main/res/layout/crimestatus_item.xml" value="0.144017094017094" />
+        <entry key="..\:/Users/Satyam/AndroidStudioProjects/AntiCrime/app/src/main/res/layout/fragment_complaint.xml" value="0.144017094017094" />
+        <entry key="..\:/Users/Satyam/AndroidStudioProjects/AntiCrime/app/src/main/res/layout/fragment_complaint_status.xml" value="0.144017094017094" />
+        <entry key="..\:/Users/Satyam/AndroidStudioProjects/AntiCrime/app/src/main/res/layout/fragment_crime.xml" value="0.13496376811594202" />
+        <entry key="..\:/Users/Satyam/AndroidStudioProjects/AntiCrime/app/src/main/res/layout/fragment_crimesaroundyou.xml" value="0.144017094017094" />
+        <entry key="..\:/Users/Satyam/AndroidStudioProjects/AntiCrime/app/src/main/res/layout/fragment_crimestatus.xml" value="0.144017094017094" />
+        <entry key="..\:/Users/Satyam/AndroidStudioProjects/AntiCrime/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Users/Satyam/AndroidStudioProjects/AntiCrime/app/src/main/res/layout/fragment_in_complaint.xml" value="0.1" />
+        <entry key="..\:/Users/Satyam/AndroidStudioProjects/AntiCrime/app/src/main/res/layout/fragment_in_missing.xml" value="0.144017094017094" />
+        <entry key="..\:/Users/Satyam/AndroidStudioProjects/AntiCrime/app/src/main/res/layout/fragment_missing.xml" value="0.144017094017094" />
+        <entry key="..\:/Users/Satyam/AndroidStudioProjects/AntiCrime/app/src/main/res/layout/fragment_missingpersonstatus.xml" value="0.144017094017094" />
+        <entry key="..\:/Users/Satyam/AndroidStudioProjects/AntiCrime/app/src/main/res/layout/fragment_profilesetting.xml" value="0.1" />
+        <entry key="..\:/Users/Satyam/AndroidStudioProjects/AntiCrime/app/src/main/res/layout/missing_item.xml" value="0.1" />
+        <entry key="..\:/Users/Satyam/AndroidStudioProjects/AntiCrime/app/src/main/res/layout/missingstatus_item.xml" value="0.144017094017094" />
+        <entry key="..\:/Users/Satyam/AndroidStudioProjects/AntiCrime/app/src/main/res/layout/nav_header_skiphome.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Satyam/AndroidStudioProjects/AntiCrime/app/src/main/res/layout/user_item.xml" value="0.12008547008547009" />
+        <entry key="..\:/Users/Satyam/AndroidStudioProjects/AntiCrime/app/src/main/res/menu/activity_main_drawer.xml" value="0.22" />
+        <entry key="..\:/Users/Satyam/AndroidStudioProjects/AntiCrime/app/src/main/res/menu/basemenuitem.xml" value="0.144017094017094" />
+        <entry key="..\:/Users/Satyam/AndroidStudioProjects/AntiCrime/app/src/main/res/menu/skiphome.xml" value="0.144017094017094" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>

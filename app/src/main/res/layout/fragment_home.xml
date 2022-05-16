@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.Home.HomeFragment">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F4EDED"
+        android:gravity="center_horizontal"
+        android:text="Help Line Numbers"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="kalyan Taluka Police station Number"
+                />
+
+            <TextView
+                android:id="@+id/phoneNumber"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_weight="1"
+                android:layout_marginTop="8dp"
+                android:textSize="17dp"
+                android:autoLink="phone"
+                android:linksClickable="true"
+                android:text="251 238 1320" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Police Inspector, Maharashtra Govt."
+                />
+
+            <TextView
+                android:id="@+id/phoneNumber1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_weight="1"
+                android:layout_marginTop="8dp"
+                android:textSize="17dp"
+                android:autoLink="phone"
+                android:linksClickable="true"
+                android:text="22-22026672" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="District Special Branch, Palghar"
+                />
+
+            <TextView
+                android:id="@+id/phoneNumber2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_weight="1"
+                android:layout_marginTop="8dp"
+                android:textSize="17dp"
+                android:autoLink="phone"
+                android:linksClickable="true"
+                android:text="2525-255900" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Vasai Police Station,Vasai village."
+                />
+
+            <TextView
+                android:id="@+id/phoneNumber3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_weight="1"
+                android:layout_marginTop="8dp"
+                android:textSize="17dp"
+                android:autoLink="phone"
+                android:linksClickable="true"
+                android:text="250-2402033" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Bhiwandi police station."
+                />
+
+            <TextView
+                android:id="@+id/phoneNumber4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_weight="1"
+                android:layout_marginTop="8dp"
+                android:textSize="17dp"
+                android:autoLink="phone"
+                android:linksClickable="true"
+                android:text="2522-251250" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Shahapur police station."
+                />
+
+            <TextView
+                android:id="@+id/phoneNumber5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_weight="1"
+                android:layout_marginTop="8dp"
+                android:textSize="17dp"
+                android:autoLink="phone"
+                android:linksClickable="true"
+                android:text="2527-272090" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Padgha police station."
+                />
+
+            <TextView
+                android:id="@+id/phoneNumber6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_weight="1"
+                android:layout_marginTop="8dp"
+                android:textSize="17dp"
+                android:autoLink="phone"
+                android:linksClickable="true"
+                android:text="2522-268100" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Kasara police station."
+                />
+
+            <TextView
+                android:id="@+id/phoneNumber7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_weight="1"
+                android:layout_marginTop="8dp"
+                android:textSize="17dp"
+                android:autoLink="phone"
+                android:linksClickable="true"
+                android:text="2527 -246030" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Murbad police station."
+                />
+
+            <TextView
+                android:id="@+id/phoneNumber8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_weight="1"
+                android:layout_marginTop="8dp"
+                android:textSize="17dp"
+                android:autoLink="phone"
+                android:linksClickable="true"
+                android:text="2524-222233" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Vasai control, Vasant Nagari, Vasai(E)"
+                />
+
+            <TextView
+                android:id="@+id/phoneNumber9"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_weight="1"
+                android:layout_marginTop="8dp"
+                android:textSize="17dp"
+                android:autoLink="phone"
+                android:linksClickable="true"
+                android:text="2525-224967" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Nallasopara Police station, Nallasopara."
+                />
+
+            <TextView
+                android:id="@+id/phoneNumber10"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_weight="1"
+                android:layout_marginTop="8dp"
+                android:textSize="17dp"
+                android:autoLink="phone"
+                android:linksClickable="true"
+                android:text="250-2402033" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Mira Road, Police Road.."
+                />
+
+            <TextView
+                android:id="@+id/phoneNumber11"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_weight="1"
+                android:layout_marginTop="8dp"
+                android:textSize="17dp"
+                android:autoLink="phone"
+                android:linksClickable="true"
+                android:text="22-28126495" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Bhayandar Police Station."
+                />
+
+            <TextView
+                android:id="@+id/phoneNumber12"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_weight="1"
+                android:layout_marginTop="8dp"
+                android:textSize="17dp"
+                android:autoLink="phone"
+                android:linksClickable="true"
+                android:text="22-28192257" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

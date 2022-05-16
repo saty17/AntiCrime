@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".base"
+    tools:ignore="HardcodedText"
+    android:orientation="vertical">
+
+
+    <include layout="@layout/baseappbar"/>
+<!--    android:id="@+id/tablayout"-->
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@id/mytoolbar">
+
+        </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager2.widget.ViewPager2
+    android:id="@+id/viewpager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.5"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/tablayout"/>
+<!--This will be the parent Floating Action Button-->
+<!--After the implementation the Floating Action Button
+     at the bottom right corner-->
+<!--After clicking the above button the following two buttons
+    will pop up. So this button is considered as parent FAB-->
+<com.google.android.material.floatingactionbutton.FloatingActionButton
+    android:id="@+id/add_fab"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="end"
+    android:layout_marginEnd="16dp"
+    android:layout_marginBottom="16dp"
+    android:src="@drawable/ic_add_black_24dp"
+    app:fabSize="normal"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:contentDescription="TODO"
+    tools:ignore="ContentDescription" />
+
+<!--Floating action button for add login-->
+<!--Make sure that you are constraining this
+    button to the parent button-->
+<com.google.android.material.floatingactionbutton.FloatingActionButton
+    android:id="@+id/add_login_fab"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="24dp"
+    app:fabSize="normal"
+    app:layout_constraintBottom_toTopOf="@+id/add_fab"
+    app:layout_constraintEnd_toEndOf="@+id/add_fab"
+    app:layout_constraintStart_toStartOf="@+id/add_fab"
+    app:srcCompat="@drawable/ic_baseline_login_24"
+    android:contentDescription="TODO"
+    tools:ignore="ContentDescription" />
+
+<!--Action name text for the add login button-->
+<!--Make sure that you are constraining this Text to
+    the add login FAB button-->
+<TextView
+    android:id="@+id/add_login_action_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="8dp"
+    android:text="User Login"
+    app:layout_constraintBottom_toBottomOf="@+id/add_login_fab"
+    app:layout_constraintEnd_toStartOf="@+id/add_login_fab"
+    app:layout_constraintTop_toTopOf="@+id/add_login_fab" />
+
+<!--Floating action button for add Register-->
+<!--Make sure that you are constraining this
+    button to the add login FAB button-->
+<com.google.android.material.floatingactionbutton.FloatingActionButton
+    android:id="@+id/add_register_fab"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="24dp"
+    app:fabSize="normal"
+    app:layout_constraintBottom_toTopOf="@+id/add_login_fab"
+    app:layout_constraintEnd_toEndOf="@+id/add_login_fab"
+    app:layout_constraintStart_toStartOf="@+id/add_login_fab"
+    app:srcCompat="@drawable/ic_baseline_reg_24"
+    android:contentDescription="TODO"
+    tools:ignore="ContentDescription" />
+
+<!--Action name text for the add register button-->
+<!--Make sure that you are constraining this Text
+    to the add register FAB button-->
+<TextView
+    android:id="@+id/add_register_action_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="8dp"
+    android:text="User Register"
+    app:layout_constraintBottom_toBottomOf="@+id/add_register_fab"
+    app:layout_constraintEnd_toStartOf="@+id/add_register_fab"
+    app:layout_constraintTop_toTopOf="@+id/add_register_fab" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
